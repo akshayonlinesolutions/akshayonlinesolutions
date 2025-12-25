@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -14,22 +15,35 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark"
-     style="background:linear-gradient(135deg,#0d6efd,#0a58ca);">
-            <div class="container px-5">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#top">Home</a>
-<a class="nav-link" href="#about">About</a>
-<a class="nav-link" href="services.html">Services</a>
-<a class="nav-link" href="#contact">Contact</a>
-</li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container px-5">
+    <a class="navbar-brand fw-bold" href="#">
+      Akshay Online Solutions
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
         <!-- Header-->
         <header class="py-5" style="background:linear-gradient(135deg,#0d6efd,#0a58ca);">
             <div class="container px-5">
@@ -39,7 +53,7 @@
                             <h1 class="display-5 fw-bolder text-white mb-2">
 Akshay Online Solutions
 </h1>
-                            <p class="lead fw-normal text-white-50 mb-4">
+                            <p class="lead fw-normal mb-4" style="color:#1f2937;">
 Cyber Cafe & Online Digital Services – Bhatti Mines, New Delhi
 </p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
@@ -102,43 +116,44 @@ Print, scan & photocopy services available.<br>
                 </div>
             </div>
         </section>
-        <!-- Testimonials section-->
-        <section class="py-5 border-bottom">
-            <div class="container px-5 my-5 px-5">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bolder">Customer testimonials</h2>
-                    <p class="lead mb-0">Our customers love working with us</p>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <!-- Testimonial 1-->
-                        <div class="card mb-4">
-                            <div class="card-body p-4">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
-                                    <div class="ms-4">
-                                        <p class="mb-1">Thank you for putting together such a great product. We loved working with you and the whole team, and we will be recommending you to others!</p>
-                                        <div class="small text-muted">- Client Name, Location</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Testimonial 2-->
-                        <div class="card">
-                            <div class="card-body p-4">
-                                <div class="d-flex">
-                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
-                                    <div class="ms-4">
-                                        <p class="mb-1">The whole team was a huge help with putting things together for our company and brand. We will be hiring them again in the near future for additional work!</p>
-                                        <div class="small text-muted">- Client Name, Location</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- CUSTOMER REVIEWS SECTION START -->
+<section class="py-5 bg-light" id="reviews">
+  <div class="container px-5 my-5">
+    <div class="text-center mb-4">
+      <h2 class="fw-bolder">Our Customer Reviews</h2>
+      <p class="text-muted">
+        Apna review likhiye – aapka feedback hume aur better banata hai
+      </p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Your Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Your Review</label>
+            <textarea class="form-control" rows="4" placeholder="Write your experience"></textarea>
+          </div>
+
+          <div class="d-grid">
+            <a href="https://wa.me/918920121265"
+               class="btn btn-primary btn-lg">
+              Submit Review on WhatsApp
+            </a>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CUSTOMER REVIEWS SECTION END -->
         <!-- Contact section-->
         <section class="bg-light py-5">
             <div class="container px-5 my-5 px-5">
