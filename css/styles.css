@@ -10851,6 +10851,50 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
+/* ===== Services Box Colors ===== */
 
-  font-size: 2rem;
+.service-box {
+  padding: 30px 20px;
+  border-radius: 14px;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* Individual colors */
+.service-blue {
+  background: linear-gradient(135deg, #0d6efd, #084298);
+}
+
+.service-green {
+  background: linear-gradient(135deg, #198754, #0f5132);
+}
+
+.service-orange {
+  background: linear-gradient(135deg, #fd7e14, #b45309);
+}
+
+.service-purple {
+  background: linear-gradient(135deg, #6f42c1, #432874);
+}
+
+.service-red {
+  background: linear-gradient(135deg, #dc3545, #842029);
+}
+
+.service-teal {
+  background: linear-gradient(135deg, #20c997, #0f5132);
+}
+
+/* Service text color fix */
+.service-box h2,
+.service-box h3,
+.service-box p {
+  color: #fff;
+}
+
 }
