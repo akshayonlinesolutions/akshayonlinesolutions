@@ -10896,3 +10896,10 @@ h1, h2, h3, h4, h5, h6,
 .service-box p {
   color: #fff;
 }
+
+/* Remove dots / bullets from navbar */
+.navbar-nav {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
