@@ -10896,7 +10896,6 @@ h1, h2, h3, h4, h5, h6,
 .service-box p {
   color: #fff;
 }
-
 /* Remove dots / bullets from navbar */
 .navbar-nav {
   list-style: none !important;
@@ -10905,4 +10904,18 @@ h1, h2, h3, h4, h5, h6,
 }
 .navbar-nav li {
   list-style: none !important;
+}
+
+/* Akshay Online Solutions ke paas aa rahe 3 dots remove */
+ul, li {
+    list-style: none !important;
+}
+
+.navbar-toggler {
+    display: none !important;
+}
+
+.fa-ellipsis-v,
+.bi-three-dots {
+    display: none !important;
 }
