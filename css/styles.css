@@ -10919,3 +10919,19 @@ ul, li {
 .bi-three-dots {
     display: none !important;
 }
+.service-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.service-box {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
