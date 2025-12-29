@@ -10970,3 +10970,10 @@ ul, li {
     bottom: 15px;
   }
 }
+.hero-logo {
+    max-width: 300px;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+}
+
