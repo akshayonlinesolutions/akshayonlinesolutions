@@ -10960,3 +10960,13 @@ ul, li {
 }
    
 
+.whatsapp-float {
+  right: 20px !important;
+  left: unset !important;
+}
+@media (max-width: 768px) {
+  .whatsapp-float {
+    right: 15px !important;
+    bottom: 15px;
+  }
+}
