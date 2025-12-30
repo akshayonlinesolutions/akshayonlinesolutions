@@ -10898,32 +10898,24 @@ h1, h2, h3, h4, h5, h6,
 }
 /* Remove dots / bullets from navbar */
 .navbar-nav {
-  list-style: none !important;
-  padding-left: 0 !important;
-  margin: 0 !important;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
+
 .navbar-nav li {
-  list-style: none !important;
+    list-style: none;
 }
+
 
 /* Akshay Online Solutions ke paas aa rahe 3 dots remove */
-ul, li {
-    list-style: none !important;
-}
 
-.navbar-toggler {
-    display: none !important;
-}
 
-.fa-ellipsis-v,
-.bi-three-dots {
-    display: none !important;
-}
 .service-link {
     text-decoration: none;
-    color: inherit;
-    display: block;
+    color: #0d6efd;
 }
+
 
 .service-box {
     cursor: pointer;
