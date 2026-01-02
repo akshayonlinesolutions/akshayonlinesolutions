@@ -11013,6 +11013,3 @@ header + div,
 header + section {
     margin-top: 30px;
 }
-footer p {
-    display: none;
-}
