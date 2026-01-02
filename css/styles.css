@@ -11002,7 +11002,8 @@ img[alt="Akshay Online Solutions Logo"] {
     transform: translateY(0) scale(1);
   }
 }
-.brand-title {
+header .brand-title,
+header h1 {
     color: #ffffff !important;
     text-shadow: none !important;
     -webkit-text-stroke: 0 !important;
