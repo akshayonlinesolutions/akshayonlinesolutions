@@ -11002,3 +11002,9 @@ img[alt="Akshay Online Solutions Logo"] {
     transform: translateY(0) scale(1);
   }
 }
+.brand-title {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+    filter: none !important;
+}
