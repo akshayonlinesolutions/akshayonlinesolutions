@@ -11020,3 +11020,10 @@ header + section {
     letter-spacing: 1px;
     margin-bottom: 6px;
 }
+.brand-title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
