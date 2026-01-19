@@ -11167,3 +11167,35 @@ body {
   font-size: 0.8rem;
   font-weight: 500;
 }
+.app-header {
+    background-color: #0d47a1;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.service-item {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item img {
+    width: 64px; /* 128 px bhi set kar sakte ho agar zyada bada chahiye */
+    margin-bottom: 10px;
+}
+
+.service-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
