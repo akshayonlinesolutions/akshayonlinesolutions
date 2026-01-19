@@ -11104,3 +11104,66 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
   z-index: 999;
 }
+/* ===== APP UI STYLE ===== */
+body {
+  background: #f2f5f9;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+.app-header {
+  background: linear-gradient(135deg, #0d6efd, #003c8f);
+  color: white;
+  padding: 35px 15px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.app-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin-bottom: 6px;
+}
+
+.app-header p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* Section */
+.section {
+  padding: 20px;
+  margin-top: -35px;
+}
+
+/* Card */
+.app-card {
+  background: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 15px;
+}
+
+.service-item {
+  text-align: center;
+}
+
+.service-item img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 6px;
+}
+
+.service-item span {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
